@@ -2,21 +2,25 @@
 
 namespace Yagya\Ghadi\GhadiProvider;
 
-use DateTime;
+use Yagya\Ghadi\Digital\Digital;
+
 
 class Ghadi
 {
+    use Digital;
 
-    public $time;
+    protected static $time;
 
     public function __construct()
     {
-        echo 'The new Ghadi is lunch.';
     }
 
-
-    public function show()
+    public static function show()
     {
-        echo  $this->time = date("l jS \of F Y h:i:s A");
+        return Ghadi::$time  = date("l jS \of F Y h:i:s A");
+    }
+
+    public static function today()
+    {
     }
 }
