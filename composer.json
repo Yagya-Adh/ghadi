@@ -1,19 +1,19 @@
 {
-    "name": "yagya/ghadi",
-    "description": "ghadi is new php package for community",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Yagya\\Ghadi\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Yagya-Adh",
-            "email": "yagyaadhikari02@gmail.com"
-        }
-    ],
-    "minimum-stability": "beta",
-    "require": {}
+  "name": "yagya/ghadi",
+  "description": "ghadi is new php package for community",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Yagya\\Ghadi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Yagya-Adh",
+      "email": "yagyaadhikari02@gmail.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {}
 }
